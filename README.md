@@ -8,7 +8,7 @@ Redux를 활용한 사용자 친화적 쇼핑몰 웹사이트
 -**반응형 디자인**: CSS Grid/Flexbox, Media Query를 활용한 모바일 레이아웃
 
 ## 사용 기술
-- **Frontend**: React, Redux, Toolkit, React Router, CSS Modules
+- **Frontend**: React, Redux Toolkit, React Router, CSS Modules
 - **API**: Axios, FakeStoreAPI
 - **Font**: esamanru Medium
 
