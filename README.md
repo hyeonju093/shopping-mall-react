@@ -1,6 +1,33 @@
-# 로그인 로직
-    1. 사용자가 아이디와 패스워드 입력 후 전송
-    2. 서버에서 검증 후 Access Token 발급
-    3. 프론트엔드에서 이 토큰을 로컬스토리지에 저장
-    4. 로그인 성공 시 로그인여부 변수를 true로 변경
-    5. 이후 API 요청 시 헤더에 토큰 담아서 보내기
+# React Shopping Mall Project
+Redux를 활용한 사용자 친화적 쇼핑몰 웹사이트
+
+## 주요 기능
+-**인증 시스템**: JWT 토큰 기반 로그인/로그아웃, Redux 전역 상태 관리
+-**장바구니**: LocalStorage 연동으로 새로고침 후에도 데이터 유지
+-**모달 시스템**: `alert` 대신 커스텀 모달을 통한 UX 최적화
+-**반응형 디자인**: CSS Grid/Flexbox, Media Query를 활용한 모바일 레이아웃
+
+## 사용 기술
+- **Frontend**: React, Redux Toolkit, React Router, CSS Modules
+- **API**: Axios, FakeStoreAPI
+- **Font**: esamanru Medium
+
+## 프로젝트 구조
+```text
+shopping-mall/
+ ┣ public/
+ ┣ src/
+ ┃ ┣ components/        # 모달, 나비게이션
+ ┃ ┣ font/
+ ┃ ┣ pages/
+ ┃ ┃   ┣ Cart/          # 장바구니
+ ┃ ┃   ┣ Home/          # 홈 화면
+ ┃ ┃   ┣ Login/         # 로그인 페이지
+ ┃ ┣ App.css
+ ┃ ┣ App.jsx
+ ┃ ┗ main.jsx
+ ┣ .gitignore
+ ┣ index.html
+ ┣ package.json
+ ┗ README.md
+```
